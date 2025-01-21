@@ -1,0 +1,16 @@
+h1{
+    color: brown;
+}
+
+
+form input, form textarea, form button {
+    display: flex;
+    justify-items: center;
+    width: 10%;
+    margin-bottom: 1rem;
+    padding: 0rem;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
+  }
