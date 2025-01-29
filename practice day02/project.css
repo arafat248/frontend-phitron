@@ -1,0 +1,28 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.cart-container{
+    width: 20%;
+    color: #0bb64d;
+    text-align: center;
+    margin: auto;
+    box-shadow: 4px 4px 4px rgb(181, 29, 31);
+    position: fixed;
+    background-color: bisque;
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+}
+.card{
+    border: 1px solid rgb(177, 202, 203);
+    padding: 10px;
+}
+.img{
+    width: 200px;
+}
