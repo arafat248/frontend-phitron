@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  .drink-card, .group-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .drink-card {
+    margin-bottom: 10px;
+  }
+  .drink-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .category, .instructions {
+    color: #666;
+    margin: 5px 0;
+  }
+  .buttons {
+    margin-top: 10px;
+  }
+  button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button.details-btn {
+    background-color: #28a745;
+  }
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  #searchInput {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  #searchBtn {
+    padding: 10px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
